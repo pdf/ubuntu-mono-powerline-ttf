@@ -6,11 +6,8 @@ Ubuntu Mono fonts patched for [vim-powerline](https://github.com/Lokaltog/vim-po
 Installation
 -------------------------
 ```bash
-mkdir ~/.fonts
-cd ~/.fonts
-git clone https://github.com/pdf/ubuntu-mono-powerline-ttf.git
+git clone https://github.com/pdf/ubuntu-mono-powerline-ttf.git ~/.fonts/ubuntu-mono-powerline-ttf
 fc-cache -vf
-cd -
 ```
 
 Set your terminal font to <tt>Ubuntu Mono for Powerline</tt> and for gvim, add:
