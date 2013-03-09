@@ -1,7 +1,7 @@
 ubuntu-mono-powerline-ttf
 =========================
 
-Ubuntu Mono fonts patched for [vim-powerline](https://github.com/Lokaltog/vim-powerline/).
+Ubuntu Mono fonts patched for [vim-powerline](https://github.com/Lokaltog/vim-powerline/) and the new [powerline](https://github.com/Lokaltog/powerline/)
 
 Installation
 -------------------------
@@ -10,9 +10,20 @@ git clone https://github.com/pdf/ubuntu-mono-powerline-ttf.git ~/.fonts/ubuntu-m
 fc-cache -vf
 ```
 
+### powerline ###
+
 Set your terminal font to <tt>Ubuntu Mono for Powerline</tt> and for gvim, add:
 ```
 set guifont=Ubuntu\ Mono\ for\ Powerline\ 12
+```
+to your <tt>.vimrc</tt>, where <tt>12</tt> is the font size.
+
+
+### vim-powerline ###
+
+Set your terminal font to <tt>Ubuntu Mono for VimPowerline</tt> and for gvim, add:
+```
+set guifont=Ubuntu\ Mono\ for\ VimPowerline\ 12
 ```
 to your <tt>.vimrc</tt>, where <tt>12</tt> is the font size.
 
